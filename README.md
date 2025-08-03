@@ -14,7 +14,7 @@ The system detects traffic lights in images and classifies their color. The solu
 
 ### 1. Dataset Preparation
 
-- A public dataset of traffic lights was used and processed using [Roboflow]([https://roboflow.com](https://app.roboflow.com/trafficlight-kwocw/traffic-light-detection-bstld-ifr7x/1)).
+- A public dataset of traffic lights was used and processed using [Roboflow](https://app.roboflow.com/trafficlight-kwocw/traffic-light-detection-bstld-ifr7x/1).
 - Dataset was annotated with classes for each light color: `red`, `yellow`, and `green`.
 - Preprocessing and augmentation were performed in Roboflow:
   - Resizing to 640x640

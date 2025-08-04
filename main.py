@@ -2,7 +2,7 @@ from ultralytics import YOLO
 
 def run():
 
-    model = YOLO("yolov8n.pt")
+    model = YOLO("yolov8m.pt")
 
     model.train(
         data='data.yaml',
@@ -11,8 +11,6 @@ def run():
         batch=16,
         device=0
     )
-
-    result = model.predict(source='valid/images/30746_png.rf.46d7c85de51ba1630d7151ca120e5906.jpg', save=True)
 
 if __name__ == '__main__':
     import multiprocessing

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['green', 'red', 'yellow']
+
+roboflow:
+  workspace: trafficlight-kwocw
+  project: capstone-2ax1t-fo6hi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/trafficlight-kwocw/capstone-2ax1t-fo6hi/dataset/1

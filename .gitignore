@@ -1,0 +1,49 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+yolov8-env/
+
+# Streamlit and general logs
+*.log
+*.tmp
+*.pid
+
+# YOLOv8 output folders
+runs/
+weights/
+*.pt  # optional: ignore trained weights if stored locally (remove if versioning them)
+
+# Dataset files
+*.zip
+*.tar.gz
+*.rar
+dataset/
+data/
+train/
+valid/
+test/
+labels.cache
+
+# Roboflow auto-generated files
+.DS_Store
+*.json
+*.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# VSCode settings
+.vscode/
+
+# Streamlit settings
+.streamlit/
